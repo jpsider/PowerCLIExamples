@@ -1,4 +1,4 @@
-$script:ModuleName = 'RestPS'
+$script:ModuleName = 'PowerCLIExamples'
 
 $here = (Split-Path -Parent $MyInvocation.MyCommand.Path) -replace 'tests', "$script:ModuleName"
 $sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path) -replace '\.Tests\.', '.'
